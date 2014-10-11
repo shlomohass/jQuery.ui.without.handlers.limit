@@ -9452,7 +9452,7 @@ $.extend(Datepicker.prototype, {
 				},
 				selectDay: function () {
 					$.datepicker._selectDay(id, +this.getAttribute("data-month"), +this.getAttribute("data-year"), this);
-					return false;
+					//return false;
 				},
 				selectMonth: function () {
 					$.datepicker._selectMonthYear(id, this, "M");
